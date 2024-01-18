@@ -13,4 +13,4 @@ bill = bill + bill * (percentage / 100)
 person_bill = round(bill / people, 2)
 
 # Print bill for each person
-print(f"Each person should pay: ${person_bill}\n")
+print(f"Each person should pay: ${person_bill:.2f}\n")
