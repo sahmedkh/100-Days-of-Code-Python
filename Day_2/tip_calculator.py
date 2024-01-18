@@ -10,7 +10,7 @@ percentage = float(input("What percentage tip would you like to give? 10, 12, or
 bill = bill + bill * (percentage / 100)
 
 # Caculate bill for each person
-person_bill = bill / people
+person_bill = round(bill / people, 2)
 
 # Print bill for each person
-print(f"Each person should pay: ${person_bill:.1f}\n")
+print(f"Each person should pay: ${person_bill}\n")
